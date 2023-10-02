@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, Response
-from ..camera import gen_frames
+from .camera import gen_frames
 
 web = Blueprint("web", __name__, template_folder="templates", static_folder="static")
 
