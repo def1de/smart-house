@@ -2,7 +2,7 @@ import cv2
 
 camera = cv2.VideoCapture(-1)
 
-def gen_frames():  
+def gen_frames():
     while True:
         success, frame = camera.read()  # read the camera frame
         if not success:
